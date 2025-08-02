@@ -10,7 +10,7 @@ st.header("Panel de Análisis de Anuncios de Vehículos Usados")
 
 # Botón para construir histograma
 if st.button("Mostrar Histograma: Distribución de Precios en Anuncios de Vehículos Usados"):
-    st.write("Distribución de precios de vehículos en los anuncios")
+    st.write("Distribución de Precios de Vehículos en los Anuncios")
     fig = px.histogram(carros, x="price", nbins=30,
                        title="Distribución de Precios")
     fig.update_layout(xaxis_title="Precio", yaxis_title="Cantidad")
@@ -18,7 +18,7 @@ if st.button("Mostrar Histograma: Distribución de Precios en Anuncios de Vehíc
 
 # Botón para construir gráfico de dispersión
 if st.button("Mostrar Gráfico de Dispersión: Año del Modelo vs Precio"):
-    st.write("Relación entre el año del modelo y el precio del vehículo")
+    st.write("Relación Entre el Año del Modelo y el Precio del Vehículo")
     carros_model_year = carros.dropna(subset=["model_year"])
     fig = px.scatter(carros_model_year, x="model_year",
                      y="price",
@@ -30,7 +30,7 @@ if st.button("Mostrar Gráfico de Dispersión: Año del Modelo vs Precio"):
 # Diagrama de Caja con casilla
 if st.checkbox("Mostrar Diagrama de Caja de Precios por Tipo de Vehículo"):
     st.write(
-        "Diagrama de Caja que muestra la distribución de precios según tipo de vehículo")
+        "Diagrama de Caja que Muestra la Distribución de Precios Según Tipo de Vehículo")
     carros_precio_filtrado = carros[carros["price"] < 100000]
     fig = px.box(carros_precio_filtrado, x="type", y="price",
                  title="Distribución de Precios por Tipo de Vehículo")
