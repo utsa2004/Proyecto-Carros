@@ -33,6 +33,6 @@ if st.checkbox("Mostrar Diagrama de Caja de Precios por Tipo de Vehículo"):
         "Diagrama de Caja que muestra la distribución de precios según tipo de vehículo")
     carros_precio_filtrado = carros[carros["price"] < 100000]
     fig = px.box(carros_precio_filtrado, x="type", y="price",
-                 title="Precios por Tipo de Vehículo")
+                 title="Distribución de Precios por Tipo de Vehículo")
     fig.update_layout(xaxis_title="Tipo de Vehículo", yaxis_title="Precio")
     st.plotly_chart(fig, use_container_width=True)
