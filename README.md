@@ -1,6 +1,6 @@
 # 🚗 Proyecto-Carros : Aplicación Web para Anuncios de Venta de Carros Usados
 
-# Panel de Análisis de Anuncios de Vehículos Usados 🚗📊
+# Panel de Análisis de Anuncios de Vehículos Usados
 
 Este proyecto es una aplicación interactiva desarrollada con **Streamlit** que permite visualizar y analizar datos de anuncios de vehículos usados. Fue creado como parte del Sprint 7 del programa de formación en análisis de datos de TripleTen.
 
@@ -61,7 +61,7 @@ Proyecto-Carros/
 
 ## 📌 Tecnologías utilizadas
 
-- Python 🐍  
+- Python
 - Pandas  
 - Plotly-express  
 - Streamlit  
