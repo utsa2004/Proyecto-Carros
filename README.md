@@ -21,30 +21,6 @@ Este proyecto es una aplicación interactiva desarrollada con **Streamlit** que 
 Puedes acceder a la app desplegada en Render aquí:  
 🔗 [https://proyecto-oferta-carros-usados.onrender.com](https://proyecto-oferta-carros-usados.onrender.com)
 
-### 🖥️ Para ejecutarlo localmente:
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/utsa2004/Proyecto-Carros.git
-   cd Proyecto-Carros
-   ```
-
-2. Crea un entorno virtual (opcional pero recomendado) y actívalo:
-   ```bash
-   python -m venv venv
-   venv\Scripts\activate  # En Windows
-   source venv/bin/activate  # En macOS/Linux
-   ```
-
-3. Instala las dependencias:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Ejecuta la aplicación:
-   ```bash
-   streamlit run app.py
-   ```
 
 ## 📁 Estructura del repositorio
 
